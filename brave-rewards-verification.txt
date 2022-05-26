@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: aegentfocks.tk
+Token: e9d9e81cc1cedb5c274f9a38a94b63a250a7fd84d0cacf49eeea3cf354a2270e
