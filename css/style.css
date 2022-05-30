@@ -1,0 +1,301 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 50px;
+    border: 2px solid gold;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.leftnav {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.leftnav li {
+    list-style: none;
+}
+
+.leftnav li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 30px;
+    font-size: 16px;
+}
+
+.leftnav li a:hover {
+    color: gold;
+    font-size: 16px;
+}
+
+.rightnav {
+    display: flex;
+    width: 40%;
+    justify-content: right;
+    align-items: center;
+}
+
+#search {
+    padding: 5px;
+    border: 2px grey;
+    border-radius: 9px;
+}
+
+.search {
+    display: flex;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.3) url(../img/Minecraft-servers-header.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.server-ip {
+    display: flex;
+    flex-direction: column;
+    color: gold;
+    justify-content: center;
+    padding-left: 2px;
+    padding-right: 10px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ip {
+    color: darkorange;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fsec {
+    height: 100vh;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    height: 80%;
+    padding-left: 100px;
+}
+
+
+.fhalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shalf {
+    width: 40%;
+}
+
+.shalf img {
+    border: 3px solid gold;
+    border-radius: 100px;
+}
+
+.text-big {
+    font-size: 45px;
+    color: darkorange;
+}
+
+.text-sm {
+    color: gold;
+    font-size: 22px;
+}
+
+.btn {
+    padding: 9px 24px;
+    margin: 4px;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+    font-size: 17px;
+    color: orange;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttons {
+    height: 100px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    background: rgba(0, 0, 0, 1);
+    background-blend-mode: darken;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: white;
+    height: 120vh;
+}
+
+.text-center {
+    max-width: 70%;
+    text-align: center;
+}
+
+.form div {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    padding-top: 20px;
+}
+
+.form div input {
+    font-size: 18px;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.form div textarea {
+    font-size: 20px;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.form label {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.superscript {
+    font-size: 12px;
+}
+
+.main-rules {
+    background: rgba(0, 0, 0, 1);
+    padding-left: 50px;
+    color: white;
+
+}
+
+.rules-text {
+    padding-left: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.general-rules {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.rules {
+    padding-left: 40px;
+    padding-top: 16px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.801);
+    font-weight: bold;
+}
+
+.rules ul li {
+    padding-top: 12px;
+}
+
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 4px 5px;
+}
+
+@media only screen and (max-width:920px) {
+
+    .burger{
+        display: block;
+    }
+    .leftnav {
+        flex-direction: column;
+    }
+
+    .leftnav li {
+        padding: 24px;
+    }
+
+    .leftnav li a {
+        font-size: 18px;
+    }
+    .rightnav{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        transition: all 0.7s ease-out;  
+        height: 447px;
+    }
+
+    .server-ip {
+        padding-bottom: 10px;
+        padding-left: 5px;
+        font-size: 14px;
+        padding-right: 0px;
+    }
+
+    .ip {
+        padding-bottom: 10px;
+        font-size: 14px;
+        padding-left: 10%;
+    }
+
+    .h-nav-resp{
+        height: 55px;
+    }
+
+    .v-resp{
+        opacity: 0;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+}
