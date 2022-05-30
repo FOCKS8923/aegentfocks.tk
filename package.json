@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2",
-    "minimist": ">=1.2.3"
+    "minimist": ">=1.2.6"
   },
   "engines": {
     "node": "12.13.1"
