@@ -99,13 +99,13 @@
     margin: auto;
     height: 60%;
     padding-left: 90px;
+    margin-right: 5px;
 }
 
 
 .fhalf {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .shalf {
@@ -131,7 +131,6 @@
     padding: 9px 24px;
     margin-right: 8px;
     border: 2px solid darkorange;
-    border-radius: 10px;
     font-size: 17px;
     color: orange;
     background-color: transparent;
@@ -278,6 +277,9 @@
         transition: all 0.4s ease-out;  
         height: 100vh;
     }
+    .main-box{
+        padding-left: 40px;
+    }
 
     .server-ip {
         padding-bottom: 10px;
@@ -289,7 +291,6 @@
     .ip {
         padding-bottom: 10px;
         font-size: 14px;
-        padding-left: 10%;
     }
 
     .h-nav-resp{
@@ -317,12 +318,6 @@
     .btn {
         padding: 3px 9px;
         margin-right: 8px;
-        border: 2px solid darkorange;
-        border-radius: 0px;
         font-size: 14px;
-        color: orange;
-        background-color: transparent;
-        cursor: pointer;
-        text-decoration: none;
     }
 }
