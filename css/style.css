@@ -97,8 +97,8 @@
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
-    height: 80%;
-    padding-left: 100px;
+    height: 60%;
+    padding-left: 90px;
 }
 
 
@@ -129,7 +129,7 @@
 
 .btn {
     padding: 9px 24px;
-    margin: 4px;
+    margin-right: 8px;
     border: 2px solid darkorange;
     border-radius: 10px;
     font-size: 17px;
@@ -246,6 +246,10 @@
     height: 4px;
     margin: 4px 5px;
 }
+.footer{
+    padding-bottom: 5%;
+    background: rgba(0, 0, 0, 1);
+}
 
 @media only screen and (max-width:920px) {
 
@@ -295,15 +299,30 @@
     .v-resp{
         opacity: 0;
     }
-    .buttons{
-        display: flex;
-        flex-direction: row;
 
-    }
     .text-big{
         font-size: 25px;
     }
+
     .text-sm{
         font-size: 16px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        padding-top:4px ;
+
+    }
+    .btn {
+        padding: 3px 9px;
+        margin-right: 8px;
+        border: 2px solid darkorange;
+        border-radius: 0px;
+        font-size: 14px;
+        color: orange;
+        background-color: transparent;
+        cursor: pointer;
+        text-decoration: none;
     }
 }
