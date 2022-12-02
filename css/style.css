@@ -282,6 +282,14 @@
     color: gold;
     font-size: 18px;
 }
+.pdf-text a{
+    text-decoration: none;
+    color: orange;
+}
+.pdf-text a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
 .pdf-shalf{
     max-width: 30%;
     padding-left: 10%;
