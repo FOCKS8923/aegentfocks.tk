@@ -364,4 +364,15 @@
         padding-top: 120px;
         padding-left: 35%;
     }
+
+    .pdf-shalf img{
+        width: 100px;
+    }
+    .pdf-heading{
+        font-size: 20px;
+    }
+    .pdf-text{
+        font-size: 14px;
+    }
+    
 }
