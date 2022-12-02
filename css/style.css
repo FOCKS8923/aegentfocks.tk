@@ -260,6 +260,36 @@
     max-width: 80%;
 }
 
+.pdf-box{
+    /* max-width: 70%; */
+    padding-left: 15%;
+    padding-right: 15%;
+    background: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pdf-fhalf{
+    max-width: 70%;
+}
+.pdf-heading{
+    font-size: 22px;
+    color: orange;
+    font-weight:bold;
+}
+.pdf-text{
+    color: gold;
+    font-size: 17px;
+}
+.pdf-shalf{
+    max-width: 30%;
+    padding-left: 10%;
+}
+.pdf-shalf img{
+    width: 100px;
+}
+
 @media only screen and (max-width:920px) {
 
     .burger{
@@ -329,5 +359,9 @@
         padding: 3px 9px;
         margin-right: 8px;
         font-size: 14px;
+    }
+    .dancing_sir{
+        padding-top: 120px;
+        padding-left: 35%;
     }
 }
