@@ -261,11 +261,11 @@
 }
 
 .pdf-box{
-    /* max-width: 70%; */
-    padding-left: 15%;
-    padding-right: 15%;
-    background: black;
-    height: 100vh;
+    padding-top: 2%;
+    padding-left: 10%;
+    /* padding-right: 11%; */
+    margin: auto;
+    height: 35vh;
     display: flex;
     flex-direction: row;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -274,20 +274,20 @@
     max-width: 70%;
 }
 .pdf-heading{
-    font-size: 22px;
+    font-size: 30px;
     color: orange;
     font-weight:bold;
 }
 .pdf-text{
     color: gold;
-    font-size: 17px;
+    font-size: 18px;
 }
 .pdf-shalf{
     max-width: 30%;
     padding-left: 10%;
 }
 .pdf-shalf img{
-    width: 100px;
+    width: 120px;
 }
 
 @media only screen and (max-width:920px) {
