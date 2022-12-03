@@ -280,7 +280,7 @@
 }
 .pdf-heading{
     font-size: 30px;
-    color: orange;
+    color: darkorange;
     font-weight:bold;
 }
 .pdf-text{
@@ -293,7 +293,7 @@
 }
 .pdf-text a:hover{
     text-decoration: none;
-    color: goldenrod;
+    color: darkorange;
 }
 .pdf-shalf{
     max-width: 30%;
