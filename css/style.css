@@ -69,6 +69,11 @@
     background-size: cover;
     background-blend-mode: darken;
 }
+.bg-background {
+    background: rgba(0, 0, 0, 0.3) url(../img/Minecraft-servers-header.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
 
 .server-ip {
     display: flex;
@@ -373,14 +378,47 @@
         padding-left: 35%;
     }
 
-    .pdf-shalf img{
-        width: 100px;
+    .pdf-box{
+        height: 30vh;
     }
+
+    .pdf-shalf img{
+        width: 85px;
+        padding-right: 4px;
+    }
+
     .pdf-heading{
         font-size: 20px;
     }
+
     .pdf-text{
-        font-size: 14px;
+        font-size: 12px;
     }
     
+}
+
+
+@media only screen and (max-width:430px){
+
+    .pdf-box{
+        height: 22vh;
+    }
+    .pdf-heading{
+        font-size: 14px;
+    }
+    .pdf-text{
+        font-size: 10px;
+    }
+    .pdf-shalf img{
+        width: 70px;
+    }
+    .bg-background{
+        height: 100vh;
+    }
+    .h-nav-resp {
+        height: 30px;
+    }
+    .burger{
+        top: 2px;
+    }
 }
