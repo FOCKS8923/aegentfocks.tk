@@ -353,6 +353,20 @@
     .v-resp{
         opacity: 0;
     }
+    .v-resp li{
+        padding: 0px;
+    }
+    .v-resp li a{
+        padding: 0px;
+        font-size: 0px;
+    }
+    .v-resp li a{
+        font-size: 0px;
+    }
+    
+    .v-resp div p{
+        font-size: 0px;
+    }
 
     .text-big{
         font-size: 25px;
