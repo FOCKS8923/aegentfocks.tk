@@ -199,7 +199,7 @@
 .btn:hover i::before{
     left: 0%;
     transform: translateX(-50%) rotate(45deg);
-    box-shadow: 40px 39px var(--clr);
+    box-shadow: 38px 40px var(--clr);
 }
 
 .btn i::after{
@@ -217,7 +217,7 @@
 .btn:hover i::after{
     left: 100%;
     transform: translateX(-50%) rotate(-45deg);
-    box-shadow: 40px -39px var(--clr);
+    box-shadow: 40px -38px var(--clr);
 }
 .contact {
     background: #1f1f20;
@@ -452,36 +452,13 @@
 
     .btn {
         padding: 8px 12px;
-        margin-right: 8px;
         font-size: 14px;
     }
-    .btn:hover i::after{
-        left: 100%;
-        transform: translateX(-50%) rotate(-45deg);
-        box-shadow: 20px -39px var(--clr);
-    }
+    
     .dancing_sir{
         padding-top: 120px;
         padding-left: 35%;
-    }
-
-    .pdf-box{
-        height: 30vh;
-    }
-
-    .pdf-shalf img{
-        width: 85px;
-        padding-right: 4px;
-    }
-
-    .pdf-heading{
-        font-size: 20px;
-    }
-
-    .pdf-text{
-        font-size: 12px;
-    }
-    
+    }    
 }
 
 
