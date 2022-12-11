@@ -4,6 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
+.code{
+    padding: 20px;
+}
+
 .test{
     color: white;
 }
