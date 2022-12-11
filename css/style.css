@@ -6,6 +6,9 @@
 }
 .code{
     padding: 20px;
+    background-color: #1f1f20;
+    color: white;
+    height: 100vh;
 }
 
 .test{
